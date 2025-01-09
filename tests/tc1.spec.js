@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { baseURL, createValidHeroPayload, heroData } from "../utils/testData";
+import { baseURL, heroData } from "../utils/testData";
 import { executeQuery } from '../utils/dbHelper';
 
 test.describe('User Story 1: API Tests', () => {
