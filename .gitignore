@@ -1,0 +1,6 @@
+node_modules/
+/test-results/
+/blob-report/
+/playwright/.cache/
+QE_Technical_Challenge/
+package-lock.json

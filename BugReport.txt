@@ -1,0 +1,20 @@
+User Story1:
+
+1. birthDate accepts future date. 
+2. DeathDate does not accept any value than null.
+3. birthDate null reutrns 500 error code.
+
+
+User Story 5:
+
+AC 1: unable to hit the external endpoint for GET request.
+[41] Fire away!
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9999/owe-ma-ne": Connection refused; nested exception is java.net.ConnectException: Connection refused
+
+
+RISKS:
+1. only http support, no HTTPS 
+2. data breach error for clerk password
+3. performance testing can't be performed
+4. Security testing like xss and sql injection
+5. multiple login session not supported for the user so tests need to run in serial.
