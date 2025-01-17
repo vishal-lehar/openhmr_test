@@ -1,5 +1,5 @@
 Project: OPENHMR_TEST
-
+```
 .
 ├── BugReport.txt
 ├── README.md
@@ -31,10 +31,11 @@ Project: OPENHMR_TEST
     ├── testData.js
     └── testHero.csv
 
-
+```
 
 Commands:
 ===========
+```
 
 start colima: `colima start`
 start docker compose: `docker-compose -f local-docker-compose.yml up -d`
@@ -46,3 +47,4 @@ create testcases
 Run Tests: 
 Create Bug Report
 Create Test Report
+```
